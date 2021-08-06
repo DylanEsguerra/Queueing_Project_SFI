@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 
 
 step = 10000
-raw = pd.read_csv("/Users/dylanesguerra/Desktop/SFI/presentation /items.csv",header=None) 
+raw = pd.read_csv("",header=None) 
 df = raw.groupby(raw.index // step).mean()
 
 
